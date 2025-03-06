@@ -41,6 +41,7 @@
     setCounterColor()
  }
 
+
 function setCounterColor(){
     if(currentValue > 0){
         counterValue.style.color = "green"
@@ -48,6 +49,7 @@ function setCounterColor(){
         counterValue.style.color = "red"
     }else {currentValue.style.colr = "cyan"}
 }
+
 function resetCounter (){
     counterValue.textContent = 0;
     setCounterColor()
